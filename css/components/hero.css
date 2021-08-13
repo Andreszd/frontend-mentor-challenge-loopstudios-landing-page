@@ -1,9 +1,6 @@
 @import './topBar.css';
 @import './navbar.css';
 
-:root{
-    --mobile-padding: 2rem;
-}
 
 .hero {
     display: flex;

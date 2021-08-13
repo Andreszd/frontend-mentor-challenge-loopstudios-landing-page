@@ -2,6 +2,7 @@
     font-size: 15px;
     --secondary-font: 'Josefin Sans', sans-serif;
     --primary-font: 'Alata', sans-serif;
+    --mobile-padding: 2rem;
 }
 html {
     box-sizing: border-box;
