@@ -1,0 +1,18 @@
+.navbar{
+    position: absolute; 
+    top: 0;
+    right: 0;
+    width: 100vw;
+    height: 100vh;
+    transform: translateX(-100%);
+    padding-left: var(--mobile-padding);
+    padding-right: var(--mobile-padding);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--black-10);
+    transition: transform ease .5s;
+}
+.navbar--is-active{
+    transform: translateX(0);
+}

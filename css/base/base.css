@@ -1,0 +1,17 @@
+:root{
+    font-size: 15px;
+    --secondary-font: 'Josefin Sans', sans-serif;
+    --primary-font: 'Alata', sans-serif;
+}
+html {
+    box-sizing: border-box;
+}
+*, 
+*::after, 
+*::before{
+    box-sizing: inherit;    
+}
+body {  
+    margin: 0;
+    font-family: var(--primary-font);
+}
