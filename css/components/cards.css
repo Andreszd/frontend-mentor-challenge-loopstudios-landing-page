@@ -1,0 +1,9 @@
+@import './card.css';
+
+.cards{
+    display: flex; 
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    flex-direction: column;
+    gap: 1.5rem;
+}
