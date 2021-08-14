@@ -1,9 +1,10 @@
 .navbar{
-    position: absolute; 
+    position: fixed; 
     top: 0;
     right: 0;
     width: 100vw;
     height: 100vh;
+    z-index: 100;
     transform: translateX(-100%);
     padding-left: var(--mobile-padding);
     padding-right: var(--mobile-padding);
