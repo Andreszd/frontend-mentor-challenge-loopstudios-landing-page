@@ -16,3 +16,8 @@ body {
     margin: 0;
     font-family: var(--primary-font);
 }
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}

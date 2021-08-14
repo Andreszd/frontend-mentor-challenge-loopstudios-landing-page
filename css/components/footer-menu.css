@@ -1,0 +1,15 @@
+.footer-menu{
+    color: var(--white-10);
+    list-style: none;
+}
+.footer-menu__item{
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 1.5rem;
+}
+.footer-menu__link{
+    font-size: 1.25rem;
+    text-transform: capitalize;
+    text-decoration: inherit;
+    color: inherit;
+}

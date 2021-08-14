@@ -1,8 +1,8 @@
 .button {
-    padding: 1rem;
+    padding: 1rem 1.5rem;
     background: transparent;
     border: none;
-    font-size: 1.2em;
+    font-size: 1em;
     font-weight: bold;
     letter-spacing: 5px;
     text-transform: uppercase;
