@@ -18,3 +18,19 @@
     flex-direction: column;
     align-items: center;
 }
+
+@media screen and (min-width: 768px) {
+    .footer{
+        flex-direction: row;
+        justify-content: space-between;
+        align-content: end;
+        padding-top: calc(var(--mobile-padding)/2);
+        padding-bottom: calc(var(--mobile-padding)/2);
+    }
+    .footer__text{
+        margin-bottom: 0;
+    }
+    .footer__information-company{
+        align-items:flex-end ;
+    }
+}

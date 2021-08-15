@@ -1,7 +1,6 @@
 .section {
     padding-left: var(--mobile-padding); 
     padding-right: var(--mobile-padding); 
-    text-align: center;
 }
 .section--first {
     display: flex;
@@ -9,6 +8,7 @@
     gap: 1rem;
     padding-top: calc(var(--mobile-padding)*3); 
     padding-bottom: calc(var(--mobile-padding)); 
+    text-align: center;
 }
 .section__title{
     text-transform: uppercase;
@@ -34,6 +34,8 @@
     grid-template-columns: "header header header"
                             "body body body"
                             "footer footer footer";
+    align-items: center;
+    text-align: center;
 }
 .section--second .section__title{
     grid-column: 1/4;
@@ -50,15 +52,16 @@
 
 @media screen and (min-width: 768px) {
     .section--second {
-        background-color: red;
-    }
-    .section--second .section__title{
-        grid-column: 1/2;
-        grid-row: 1/2;
+        text-align: start;
+        padding-bottom: var(--mobile-padding);
     }
     .section--second .cards{
         grid-column: 1/4;
         grid-row: 2/4;
+    }
+    .section--second .section__title{
+        grid-column: 1/2;
+        grid-row: 1/2;
     }
     .section--second .button{
         grid-column: 3/4; 

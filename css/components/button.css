@@ -6,8 +6,18 @@
     font-weight: bold;
     letter-spacing: 5px;
     text-transform: uppercase;
+    transition: background-color ease .2s;
     font-family: var(--secondary-font);
 }
 .button-secondary {
     border: 1px solid var(--black-10);
+}
+@media screen and (min-width: 768px) {
+    .button:hover{
+        cursor: pointer;
+    }
+    .button-secondary:hover {
+        color: var(--white-10);
+        background-color: var(--black-10);
+    }
 }

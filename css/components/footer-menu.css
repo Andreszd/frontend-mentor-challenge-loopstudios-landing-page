@@ -13,3 +13,20 @@
     text-decoration: inherit;
     color: inherit;
 }
+@media screen and (min-width: 768px) {
+    .footer-menu{
+        padding-top: 1rem;
+    }
+    .footer-menu__item{
+        display: inline-block;
+        margin-right: 2rem;
+        margin-bottom: 0;
+    }
+    .footer-menu__link{
+        border-bottom: 1px solid transparent;
+        font-size: 1rem;
+    }
+    .footer-menu__link:hover{
+        border-color: var(--white-10);
+    }
+}
