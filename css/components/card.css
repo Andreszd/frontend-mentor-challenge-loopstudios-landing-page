@@ -21,8 +21,8 @@
 @media screen and (min-width: 768px) {
     .card {
         position: relative;
-        min-width: 50px;
-        width: 270px;
+        min-width: 40px;
+        width: 240px;
     }
     .card__text {
         max-width: 75%;
