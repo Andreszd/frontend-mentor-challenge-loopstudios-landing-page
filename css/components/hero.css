@@ -47,6 +47,12 @@
     }
     .hero__title {
         width: 50%;
-        font-size: 4rem;
+        font-size: 3rem;
+    }
+}
+@media screen and (min-width: 1025px) {
+    .hero__title {
+        width: 50%;
+        font-size: 3.5rem;
     }
 }
