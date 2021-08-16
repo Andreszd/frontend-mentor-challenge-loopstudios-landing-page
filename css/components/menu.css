@@ -21,3 +21,11 @@
     border-color: var(--white-10);
 }
  
+@media screen and (min-width: 768px) {
+    .menu{
+        flex-direction: row;
+        font-weight: bold;
+        justify-content: flex-end;
+        font-size: 1rem;
+    }
+}

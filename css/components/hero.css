@@ -40,4 +40,13 @@
                     url("/assets/images/desktop/image-hero.jpg");
 
     }
+    .hero__header {
+        display: flex;
+        flex-direction: row-reverse;
+        align-content: center;
+    }
+    .hero__title {
+        width: 50%;
+        font-size: 4rem;
+    }
 }

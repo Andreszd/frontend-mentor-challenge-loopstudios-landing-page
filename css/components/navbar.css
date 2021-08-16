@@ -4,7 +4,7 @@
     right: 0;
     width: 100vw;
     height: 100vh;
-    z-index: 100;
+    z-index: 10;
     transform: translateX(-100%);
     padding-left: var(--mobile-padding);
     padding-right: var(--mobile-padding);
@@ -16,4 +16,14 @@
 }
 .navbar--is-active{
     transform: translateX(0);
+}
+@media screen and (min-width: 768px) {
+    .navbar{
+        position: initial;
+        padding: 0;
+        height: auto;
+        transform: translateX(0); 
+        background-color: transparent;
+    }
+
 }

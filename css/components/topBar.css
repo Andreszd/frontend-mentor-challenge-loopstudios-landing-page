@@ -16,3 +16,13 @@
 .top-bar--bg-black-10{
     background-color: var(--black-10);
 }
+.top-bar__icon-menu, .logo{
+    position: relative;
+    z-index: 100;
+
+}
+@media screen and (min-width: 768px) {
+    .top-bar__icon-menu{
+        display: none;
+    }
+}

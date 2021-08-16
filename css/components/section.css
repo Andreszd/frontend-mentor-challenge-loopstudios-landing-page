@@ -61,7 +61,6 @@
         padding-bottom: 0; 
     }
     .section--first .section__content{
-        position: relative;
         padding-left: 4rem;
         padding-top: 2rem;
         background-color: var(--white-10);
